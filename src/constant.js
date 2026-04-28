@@ -22,4 +22,6 @@ module.exports = {
   WEBVTT_MAX_CHARS,
   WEBVTT_DELIMITER,
   WEBVTT_SPLIT_REGEX,
+  
+  SOCIAL_LINKS,
 };
