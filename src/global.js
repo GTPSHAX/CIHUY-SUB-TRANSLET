@@ -1,8 +1,13 @@
+const AppLog = require('./lib/AppLog.js');
+
 // Global var
-const REQUEST_LOGS = [];
 let TOTAL_TRANSLATED = 0;
 
+// Global instance
+const appLog = new AppLog('Asia/Jakarta', 3);
+
 module.exports = {
-  REQUEST_LOGS,
   TOTAL_TRANSLATED,
+
+  appLog,
 };
