@@ -1,0 +1,17 @@
+dist/
+node_modules/
+*.env
+*.env.local
+*.env.development
+*.env.test
+*.env.production
+*.log
+*.dbg
+package-lock.json
+yarn.lock
+bun.lock
+
+# Ignore development files
+*.~lock.*
+ai_response.txt
+example-modul-ajar.docx
