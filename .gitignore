@@ -13,5 +13,8 @@ bun.lock
 
 # Ignore development files
 *.~lock.*
-ai_response.txt
-example-modul-ajar.docx
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+bun.lock
